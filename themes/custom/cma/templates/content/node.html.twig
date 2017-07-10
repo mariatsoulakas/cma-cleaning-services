@@ -1,4 +1,4 @@
-{% extends "@STARTERKIT/containers/article/article.twig" %}
+{% extends "@cma/containers/article/article.twig" %}
 {#
 /**
  * @file
@@ -80,7 +80,7 @@
   {% endif %}
   {% if node.in_preview or not node.isPublished() %}
     {%
-      include "@STARTERKIT/components/watermark/watermark.twig" with {
+      include "@cma/components/watermark/watermark.twig" with {
         "content": node.in_preview ? "Preview"|t : "Unpublished"|t
       } only
     %}

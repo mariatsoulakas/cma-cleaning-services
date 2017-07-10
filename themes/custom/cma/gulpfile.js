@@ -1,6 +1,7 @@
 /* eslint-env node, es6 */
 /* global Promise */
 /* eslint-disable key-spacing, one-var, no-multi-spaces, max-nested-callbacks, quote-props */
+
 'use strict';
 
 var importOnce = require('node-sass-import-once'),
@@ -117,7 +118,7 @@ options.styleGuide = {
   ],
 
   homepage: 'homepage.md',
-  title: 'CMA Style Guide'
+  title: 'cma Style Guide'
 };
 
 // Define the paths to the JS files to lint.

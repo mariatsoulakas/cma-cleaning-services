@@ -14,7 +14,7 @@
 #}
 {% if content %}
   {%
-    include "@STARTERKIT/components/footer/footer.twig" with {
+    include "@cma/components/footer/footer.twig" with {
       modifier_class: attributes.class|safe_join(' '),
       attributes: attributes.removeAttribute('class'),
       content: content

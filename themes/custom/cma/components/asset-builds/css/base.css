@@ -88,14 +88,14 @@ a:hover {
   :visited {
     text-decoration: underline;
   }
-  a[href]::after {
+  a[href]:after {
     content: " (" attr(href) ")";
     font-weight: normal;
     font-size: 16px;
     text-decoration: none;
   }
-  a[href^='javascript:']::after,
-  a[href^='#']::after {
+  a[href^='javascript:']:after,
+  a[href^='#']:after {
     content: '';
   }
 }
@@ -149,7 +149,7 @@ abbr[title] {
 }
 
 @media print {
-  abbr[title]::after {
+  abbr[title]:after {
     content: " (" attr(title) ")";
   }
 }
@@ -455,3 +455,5 @@ td,
 th {
   padding: 0;
 }
+
+/*# sourceMappingURL=base.css.map */

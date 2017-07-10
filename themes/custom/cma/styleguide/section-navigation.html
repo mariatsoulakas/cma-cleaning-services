@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>CMA Style Guide</title>
+  <title>cma Style Guide</title>
 
   <meta name="description" content="">
   <meta name="generator" content="kss-node">
@@ -49,7 +49,7 @@
 
 <div class="kss-sidebar kss-style">
   <header class="kss-header">
-    <h1 class="kss-doc-title">CMA Style Guide</h1>
+    <h1 class="kss-doc-title">cma Style Guide</h1>
   </header>
   <nav class="kss-nav">
     <ul class="kss-nav__menu">
@@ -296,7 +296,7 @@ page navigation.</p>
  *   - url: [string] URL of the item (optional).
  */
 #}
-{{ attach_library(&#039;STARTERKIT/breadcrumb&#039;) }}
+{{ attach_library(&#039;cma/breadcrumb&#039;) }}
 &lt;nav class=&quot;breadcrumb {{modifier_class}}&quot; role=&quot;navigation&quot; aria-labelledby=&quot;system-breadcrumb&quot;&gt;
   &lt;h2 id=&quot;system-breadcrumb&quot; class=&quot;visually-hidden&quot;&gt;{{ heading|default(&#039;You are here&#039;) }}&lt;/h2&gt;
   &lt;ol class=&quot;breadcrumb__list&quot;&gt;
@@ -423,7 +423,7 @@ page navigation.</p>
  * - content: [string] The component contents.
  */
 #}
-{{ attach_library(&#039;STARTERKIT/more-link&#039;) }}
+{{ attach_library(&#039;cma/more-link&#039;) }}
 &lt;div class=&quot;more-link {{modifier_class}}&quot;&gt;
   {% block content %}
     {{ content }}
@@ -985,7 +985,7 @@ with the <code>visually-hidden</code> component.</p>
  * - text: [string] The link text.
  */
 #}
-{{ attach_library(&#039;STARTERKIT/skip-link&#039;) }}
+{{ attach_library(&#039;cma/skip-link&#039;) }}
 &lt;a href=&quot;{{ url|default(&#039;#main-content&#039;) }}&quot; class=&quot;skip-link {{ modifier_class }}&quot;&gt;
   {% block content %}
     {{ text|default(&#039;Skip to main content&#039;) }}
@@ -1154,7 +1154,7 @@ with the <code>visually-hidden</code> component.</p>
  *   - url: [string] URL of the item (optional).
  */
 #}
-{{ attach_library(&#039;STARTERKIT/tabs&#039;) }}
+{{ attach_library(&#039;cma/tabs&#039;) }}
 {% if heading %}
   &lt;h2 class=&quot;visually-hidden&quot;&gt;{{ heading }}&lt;/h2&gt;
 {% endif %}

@@ -13,7 +13,7 @@
 #}
 {% if primary %}
   {%
-    include "@STARTERKIT/navigation/tabs/tabs.twig" with {
+    include "@cma/navigation/tabs/tabs.twig" with {
       heading: 'Primary tabs'|t,
       modifier_class: 'tabs--primary',
       tabs: primary
@@ -22,7 +22,7 @@
 {% endif %}
 {% if secondary %}
   {%
-    include "@STARTERKIT/navigation/tabs/tabs.twig" with {
+    include "@cma/navigation/tabs/tabs.twig" with {
       heading: 'Secondary tabs'|t,
       modifier_class: 'tabs--secondary',
       tabs: secondary

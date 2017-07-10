@@ -23,7 +23,7 @@
 #}
 {% for type, messages in message_list %}
   {%
-    include "@STARTERKIT/components/messages/messages.twig" with {
+    include "@cma/components/messages/messages.twig" with {
       type: type,
       messages: messages,
       heading: status_headings[type],
